@@ -1,2 +1,2 @@
 # AdUseraddGroup
-Adding multiple users to an AD grtoup
+Adding multiple users to an AD group
