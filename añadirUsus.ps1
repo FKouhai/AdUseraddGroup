@@ -4,5 +4,5 @@ $ruta=Read-Host "Introduce la ruta del fichero csv(fichero que contiene los usua
 $fichero= Import-csv -Path $ruta
 $grupo=Read-host "Introduce el nombre de los grupos de seguridad"
 foreach($user in $fichero){
-    Add-ADGroupMember -Identity $user  -Members $user  
+    Add-ADGroupMember -Identity $group  -Members $user  
 }
